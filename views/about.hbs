@@ -6,29 +6,34 @@
       <p>
         More information about the app
       </p>
+    <div class = "ui centered link cards">
+    {{#each employee}}
+    <div class="ui card">
+     
 
-    
-    <div class="ui centered card">
+      
   <div class="image">
-    <img src="{{employee.image}} ">
+    <img src="{{image}} ">
   </div>
   <div class="content">
-    <a class="header">{{employee.fullname}} </a>
+    <a class="header">{{fullname}} </a>
     <div class="meta">
-      <span class="date">Joined in {{employee.joined}} </span>
+      <span class="date">Joined in {{joined}} </span>
     </div>
     <div class="description">
-       {{employee.name}} is a {{employee.job}}  living in {{employee.city}} .
+       {{name}} is a {{job}}  living in {{city}} .
     </div>
   </div>
   <div class="extra content">
     <a>
       <i class="user icon"></i>
-        {{employee.mates}} contacts
+        {{mates}} contacts
     </a>
   </div>
-</div>
 
+</div>
+{{/each}}
+</div>
 
 </section>
 
