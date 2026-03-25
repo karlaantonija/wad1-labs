@@ -51,11 +51,6 @@
       "songs": []
     },
     {
-      "id": "7776ba6d-bc47-44ed-ae7f-3355a3ee7010",
-      "title": "new playlist",
-      "songs": []
-    },
-    {
       "id": "b165a419-b23f-4c44-859f-4ba5c369c710",
       "title": "hi",
       "date": "2026-03-18T15:46:00.753Z",
@@ -63,42 +58,35 @@
       "rating": "4"
     },
     {
-      "id": "483e6024-3366-47d0-bbeb-1f728814b144",
-      "title": "hello",
-      "date": "2026-03-18T15:46:10.112Z",
-      "songs": [],
-      "rating": "5"
-    },
-    {
-      "id": "b1901fc0-1d63-4cd0-b6aa-36402a1ca898",
+      "id": "bc484d80-0494-4a62-b447-cd45ac331da6",
       "title": "test",
-      "date": "2026-03-18T15:51:13.936Z",
-      "songs": [],
-      "rating": [
-        "2",
-        "2"
+      "rating": 4,
+      "date": "2026-03-25T15:38:37.445Z",
+      "songs": [
+        {
+          "id": "4bb527ab-da48-4d8d-805b-6c2648e7f72a",
+          "title": "test",
+          "artist": "test"
+        }
       ]
     },
     {
-      "id": "9ac9edb1-3f27-46f5-ab3e-8501c0f9c76b",
-      "title": "new",
-      "date": "2026-03-18T15:51:36.852Z",
-      "songs": [],
-      "rating": "2"
-    },
-    {
-      "id": "1be04f45-ce89-44d3-a8bc-eabd0eb676d2",
-      "title": "i",
-      "date": "2026-03-18T15:51:57.328Z",
-      "songs": [],
-      "rating": "4"
-    },
-    {
-      "id": "f9459bb7-fd2e-42b1-ba81-47a123abf6c6",
-      "title": "hi",
-      "rating": 3,
-      "date": "2026-03-18T15:53:33.679Z",
-      "songs": []
+      "id": "c1b08384-0f61-4280-8024-356d72eaa048",
+      "title": "test 2",
+      "rating": 1,
+      "date": "2026-03-25T15:38:47.998Z",
+      "songs": [
+        {
+          "id": "3f449230-ea42-44db-982e-46a7568b7396",
+          "title": "test",
+          "artist": "test"
+        },
+        {
+          "id": "4537e414-ae3e-4a92-a3c2-3f61809393b4",
+          "title": "another ",
+          "artist": "another"
+        }
+      ]
     }
   ]
 }
