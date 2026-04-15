@@ -1,92 +1,20 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "rating": 3,
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethove"
-        },
-        {
-          "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
-        }
-      ]
-    },
-    {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "rating": 3,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethove"
-        }
-      ]
-    },
-    {
-      "id": "03",
-      "title": "Beethoven Unfinished Symphonies",
-      "rating": 4,
-      "songs": []
-    },
-    {
-      "id": "b165a419-b23f-4c44-859f-4ba5c369c710",
-      "title": "hi",
-      "date": "2026-03-18T15:46:00.753Z",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "de5909f3-2894-4cf9-b3ec-1464438a8111",
+      "title": "marges song",
+      "rating": 5,
       "songs": [],
-      "rating": "4"
+      "date": "2026-04-15T14:41:16.233Z"
     },
     {
-      "id": "bc484d80-0494-4a62-b447-cd45ac331da6",
-      "title": "test",
-      "rating": 4,
-      "date": "2026-03-25T15:38:37.445Z",
-      "songs": [
-        {
-          "id": "4bb527ab-da48-4d8d-805b-6c2648e7f72a",
-          "title": "test",
-          "artist": "test"
-        }
-      ]
-    },
-    {
-      "id": "c1b08384-0f61-4280-8024-356d72eaa048",
-      "title": "test 2",
+      "userid": "ef085e21-3153-4f5c-9466-517505fbfeaa",
+      "id": "35f6acdc-d4e4-45bb-a504-f4930680a6d8",
+      "title": "homers song",
       "rating": 1,
-      "date": "2026-03-25T15:38:47.998Z",
-      "songs": [
-        {
-          "id": "3f449230-ea42-44db-982e-46a7568b7396",
-          "title": "test",
-          "artist": "test"
-        },
-        {
-          "id": "4537e414-ae3e-4a92-a3c2-3f61809393b4",
-          "title": "another ",
-          "artist": "another"
-        }
-      ]
+      "songs": [],
+      "date": "2026-04-15T14:42:28.214Z"
     }
   ]
 }

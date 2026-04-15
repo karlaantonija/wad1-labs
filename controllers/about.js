@@ -2,18 +2,23 @@
 
 import logger from "../utils/logger.js";
 import exercises from "../models/exercises.js";
+import accounts from './accounts.js';
 
 const about = {
   createView(request, response) {
+    const loggedInUser = accounts.getCurrentUser(request);
     logger.info("About page loading!");
-    const viewData = {
-      title: "About the playlist app",
-      employee: exercises.getAppInfo()
-    };
     
-    logger.debug(viewData.info);
-    response.render('about', viewData);   
-  },
-};
+    if (loggedInUser) {
+      const viewData = {
+        title: 'About the Playlist App',
+        fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+        employees: exercises.getAppInfo(),
+      };
+      response.render('about', viewData);
+    }
+    else response.redirect('/');    
+},
+}
 
 export default about;
